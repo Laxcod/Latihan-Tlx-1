@@ -1,6 +1,10 @@
 import java.util.Scanner;
-public class BebekUntukTemanTlx {
-    public static void main (String []args){
+public class BebekUntukTemanTlx 
+
+{
+    public static void main (String []args)
+
+    {
     Scanner teman = new Scanner(System.in);
     int N = teman.nextInt();
     int M = teman.nextInt();
@@ -10,4 +14,5 @@ public class BebekUntukTemanTlx {
     System.out.println("masing-masing " + masing);
     System.out.println("bersisa " + sisa);
     }
+
 }
