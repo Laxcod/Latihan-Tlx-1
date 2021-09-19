@@ -1,6 +1,9 @@
 import java.util.Scanner;
-public class TransposMatriksTlx {
-    public static void main (String [] args){
+public class TransposMatriksTlx 
+
+{
+    public static void main (String [] args)
+    {
      Scanner matrix = new Scanner(System.in);
      int[][] matriks = new int[3][3];
 
