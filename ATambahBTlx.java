@@ -1,7 +1,11 @@
 import java.util.Scanner;
-public class ATambahBTlx {
+public class ATambahBTlx 
 
-    public static void main (String [] args){
+{
+
+    public static void main (String [] args)
+    
+    {
     Scanner itik = new Scanner(System.in);
     int A,B;
     A = itik.nextInt();
@@ -12,4 +16,5 @@ public class ATambahBTlx {
     
     System.out.println(total);
     }
+    
 }
